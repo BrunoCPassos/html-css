@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* A recomendação do W3C relacionada a tamanho é usar em e px */
+body{
+    font: normal bold 17px "Roboto";
+}
+
+/* shorthand de font = font: fonte-style font-weight font-size font-family  */
+
+/* 16px geralmente  = 1em */
+
+/* Medidas absolutas
+cm, mm, in, px, pt, pc
+
+Medidas relativas
+em=Relativo ao M maiusculo da fonte, ex=Relativo a altura do x minusculo da fonte, rem=relativo a fonte configurada no root, vw=porcentagem da viewport'largura', vh=porcentagem da viewport'altura'
+
+*/

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wdth,wght@75..125,100..900&display=swap');
+
+@font-face {
+    font-family: "monocode";
+    src: url("font/Monocode-Regular-V01.02b.ttf") format("truetype");
+}
+
+h1{
+    font-family: "monocode";
+    font-size: 40px;
+}

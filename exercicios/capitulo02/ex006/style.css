@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* id = # */
+/* cass = . */
+
+body{
+    font: normal 16px Arial, Verdana, serif;
+    background-color: bisque;
+    
+}
+
+
+#principal{
+    text-align: right;
+    background-color: white;
+}
+
+.intermediario{
+
+    text-align: right;
+    
+    background-color: white;
+}
+
+.basico{
+    text-align: center;
+    color: brown;
+}
+
+p{
+    color: green;
+    text-align: justify;
+    text-indent: 28px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a:visited{
+            color: red;
+            font-weight: bold;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+            transition: .4s;
+        }
+
+        a:active{
+            color: aqua;
+        }
+
+        a::after{
+            content: 'link';
+        }
+
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <a href="https://www.youtube.com/channel/UCo846cPs12YAFQsj0v40Rtg" target="_blank" rel="external">
+            <li>Canal Youtube</li>
+        </a>
+        <a href="https://www.wattpad.com/user/BrunoCPassos" target="_blank" rel="external">
+            <li>Página Wattpad</li>
+        </a>
+        <a href="https://www.frontendmentor.io/home" target="_blank" rel="external">
+            <li>Página Front-end Mentor</li>
+        </a>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background: linear-gradient(to left, #ee82eebd, #ffff00a0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+    text-shadow: 1px 1px #a52a2a9f
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+p{
+    text-align: center;
+    text-shadow: 1px 1px #000000be;
+}
+
+p:hover{
+    font-weight: bolder;
+    font-size: 22px;
+    transition: .8s;
+    color: blue;
+}
+
+#metaphor:hover{
+    font-weight: bolder;
+    font-size: 22px;
+    transition: .8s;
+    color: aqua;
+}

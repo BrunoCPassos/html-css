@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, green, rgba(55, 148, 5, 0.849));
+}
+
+.conteudo{
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.senha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+input{
+    padding: 3px;
+    font-size: 18px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.botao{
+    padding: 10px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    font-size: 20px;
+    padding: 3px 2px 3px 2px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #03ff03;
+}
+
+button:hover{
+    font-size: 24px;
+    cursor: pointer;
+    transition: .5s;
+    background-color: green;
+}

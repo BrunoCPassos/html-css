@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+picture{
+    width: 750px;
+    height: 450px;
+}
+
+#foto{
+    background-image: url(assets/img-01.png);
+}
+
+#foto:hover{
+    background-image: url(assets/img-02.png);
+}

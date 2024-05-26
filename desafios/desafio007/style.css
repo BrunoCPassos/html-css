@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+    background-color: bisque;
+}
+
+
+*{
+    /* Usar para configurações globais */
+}
+
+.tela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, orange, red);
+}
+
+.circulo{
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: lightcoral;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height:70px;
+    background-color: rgb(164, 54, 240);
+}
+
+p{
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0px;
+    
+}
+
